@@ -26,9 +26,9 @@ Skills 聚合的网站很多，但几乎没有哪个告诉你：
 
 | 用例 | 核心 Skill | 综合评分 |
 |------|-----------|---------|
-| [前端网页设计](./usecases/001-frontend-design.md) | frontend-design | 4.4/5 |
-| [电子表格处理](./usecases/002-xlsx.md) | xlsx | 4.3/5 |
-| [网站登录凭证管理](./usecases/003-playwright-auth.md) | playwright-auth-manager | 4.4/5 |
+| [前端网页设计](./usecases/frontend-design.md) | frontend-design | 4.4/5 |
+| [电子表格处理](./usecases/xlsx.md) | xlsx | 4.3/5 |
+| [网站登录凭证管理](./usecases/playwright-auth.md) | playwright-auth-manager | 4.4/5 |
 | [设计封面](./usecases/canvas-design.md) | canvas-design | 3.5/5 |
 
 ## 如何安装 Skill

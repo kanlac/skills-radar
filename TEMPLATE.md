@@ -54,17 +54,17 @@
 ## 写作规范
 
 1. **语言风格**：客观陈述，避免口语化表达（如「太惊艳了」「没啥好说的」）
-2. **图片命名**：存放于 `img/{序号}/` 目录，如 `img/001/effect-comparison.jpg`
+2. **图片命名**：存放于 `img/{英文名}/` 目录，如 `img/frontend-design/effect-comparison.jpg`
 3. **评分说明**：每个维度需附简短说明
 4. **对比公平**：横向评测使用相同 Prompt
 
 ## 文件命名
 
 ```
-usecases/{序号}-{英文名}.md
+usecases/{英文名}.md
 ```
 
 示例：
-- `001-frontend-design.md`
-- `002-xlsx.md`
-- `003-playwright-auth.md`
+- `frontend-design.md`
+- `xlsx.md`
+- `playwright-auth.md`
