@@ -30,12 +30,67 @@ Skills 聚合的网站很多，但几乎没有哪个告诉你：
 | [电子表格处理](./usecases/002-xlsx.md) | xlsx | 3.5/5 |
 | [网站登录凭证管理](./usecases/003-playwright-auth.md) | playwright-auth-manager | 4.4/5 |
 
+## 如何安装 Skill
+
+不同 Agent 工具安装 Skill 的方法有所不同：
+
+### Claude Code
+
+**方法一：GitHub Marketplace（推荐）**
+
+访问 [Claude Code Plugins](https://github.com/anthropics/claude-code/tree/main/plugins)，找到需要的 Skill，点击安装。支持自动更新。
+
+**方法二：手动安装**
+
+将 Skill 文件（如 `SKILL.md`）放入项目的 `.claude/skills/` 目录：
+
+```bash
+mkdir -p .claude/skills
+curl -o .claude/skills/SKILL.md <skill-url>
+```
+
+### OpenCode
+
+OpenCode 完全兼容 Claude Code 的 Skill 格式。
+
+**安装方式：**
+
+直接告诉 Agent 安装链接：
+
+```
+安装这个 skill https://raw.githubusercontent.com/<repo>/SKILL.md
+```
+
+Agent 会自动下载并配置。
+
+**使用 Codex/Gemini 订阅：**
+
+```bash
+opencode auth login
+```
+
+完成 ChatGPT 登录流程后即可使用 Codex 订阅。
+
+### OpenAI Codex
+
+Codex 通过内置的 `skill-installer` 安装 Skill：
+
+```bash
+$skill-installer https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
+```
+
+**注意：** 网页端 Codex 和 ChatGPT 目前不支持 Skill。
+
+### 通用方法
+
+对于任何支持 Agent Skills 的客户端，都可以直接将 `SKILL.md` 文件放入项目目录，Agent 会自动识别并加载。
+
 ## 参与贡献
 
 欢迎通过以下方式参与：
 
 - **提名 Skill**：[提交 Issue](../../issues/new) 告诉我们你想看哪个 Skill 的评测
-- **贡献评测**：Fork 本仓库，按照模板撰写评测，提交 PR
+- **贡献评测**：Fork 本仓库，按照 [评测模板](./TEMPLATE.md) 撰写，提交 PR
 - **纠错反馈**：发现评测有误？欢迎提 Issue 或 PR
 
 ## 关键词
