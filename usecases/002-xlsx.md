@@ -35,7 +35,7 @@ Skill 要求永远用公式，不硬编码计算结果。公式是「活」的�
 
 ### 华尔街投行规范
 
-![颜色编码标准](./img/002/color.jpg)
+收纳了一系列金融行业专业表格规范，例如颜色编码标准。非金融行业用户可能需要根据团队习惯调整。
 
 | 颜色 | 含义 |
 |------|------|
@@ -43,7 +43,7 @@ Skill 要求永远用公式，不硬编码计算结果。公式是「活」的�
 | 黑色 | 公式计算值 |
 | 绿色 | 引用值 |
 
-非金融行业用户可能需要根据团队习惯调整。
+![](./img/002/color.jpg)
 
 ### 工具链
 
@@ -61,18 +61,21 @@ Skill 要求永远用公式，不硬编码计算结果。公式是「活」的�
 
 ### 结果对比
 
-![Skill 输出效果](./img/002/skill-output.jpg)
+Skill 输出效果
+![](./img/002/skill-output.jpg)
 
-![WPS 输出效果](./img/002/wps-output.jpg)
+WPS 输出效果
+![](./img/002/wps-output.jpg)
 
-![Formula Bot 效果](./img/002/formula-bot.jpg)
+Formula Bot 效果
+![](./img/002/formula-bot.jpg)
 
 | 产品 | 效果 | 公式驱动 | 评价 |
 |------|------|---------|------|
 | xlsx Skill | 准确，格式美观 | 部分遵循 | 第一梯队 |
 | WPS (DeepSeek) | 数据准确 | 否 | 格式不美观 |
-| Skywork | 有可视化 | - | 不能下载表格 |
-| Google Sheet Gemini | 只读当前 sheet | - | 无法跨表任务 |
+| Skywork | 有可视化 | 否 | 不能下载表格 |
+| Google Sheet Gemini | 只读当前 sheet | 否 | 无法跨表任务 |
 | Formula Bot | 效果优秀 | 否 | 第一梯队 |
 
 ## 适用场景
