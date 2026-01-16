@@ -17,20 +17,18 @@ Skills 聚合的网站很多，但几乎没有哪个告诉你：
 
 | 维度 | 说明 |
 |------|------|
-| 效果 | 是否真的解决问题 |
+| 效果 | 是否真的解决问题（含稳定性） |
 | 复现成本 | 安装/配置/依赖的复杂度 |
-| 稳定性 | 失败率、对环境敏感度 |
-| 速度 | 执行耗时/交互成本 |
-| 可扩展性 | 是否容易改造成自己的工作流 |
+| 通用性 | 不需要定制化就能满足需求的程度 |
 | 兼容性 | Claude Code / OpenCode / Codex 等客户端支持情况 |
 
 ## 评测文章
 
 | 用例 | 核心 Skill | 综合评分 |
 |------|-----------|---------|
-| [前端网页设计](./usecases/001-frontend-design.md) | frontend-design | 4.5/5 |
-| [电子表格处理](./usecases/002-xlsx.md) | xlsx | 4.0/5 |
-| [网站登录凭证管理](./usecases/003-playwright-auth.md) | playwright-auth-manager | 4.2/5 |
+| [前端网页设计](./usecases/001-frontend-design.md) | frontend-design | 4.4/5 |
+| [电子表格处理](./usecases/002-xlsx.md) | xlsx | 3.5/5 |
+| [网站登录凭证管理](./usecases/003-playwright-auth.md) | playwright-auth-manager | 4.4/5 |
 
 ## 参与贡献
 

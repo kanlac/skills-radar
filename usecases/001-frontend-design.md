@@ -18,14 +18,12 @@
 
 | 维度 | 分数 | 说明 |
 |------|------|------|
-| 效果 | 5 | 效果惊艳，远超 AI 直出水平 |
+| 效果 | 4.5 | 效果惊艳，偶有尾部排版小瑕疵 |
 | 复现成本 | 5 | 安装即用，无需额外配置 |
-| 稳定性 | 4 | 偶尔尾部排版有小问题 |
-| 速度 | 5 | 几分钟内完成复杂页面 |
-| 可扩展性 | 4 | 可 fork 定制设计规范 |
+| 通用性 | 4 | 每个团队可能有自己的设计风格，需微调 |
 | 兼容性 | 4 | Claude Code / OpenCode / Codex 均可用 |
 
-**综合评分：4.5/5**
+**综合评分：4.4/5**
 
 ## 效果对比
 
@@ -38,21 +36,21 @@
 
 #### Claude 直出（无 Skill）
 
+![Claude 直出效果](./img/001/christmas-without-skill-1.jpg)
+
 - 粗糙的展示
 - Emoji 滥用，浓烈的 AI 味儿
 - 字体用的是常规 Arial，毫无特色
 
 #### 使用 frontend-design Skill
 
+![使用 Skill 效果](./img/001/christmas-with-skill-1.jpg)
+
 - 星空背景更有夜晚的感觉
 - 雪花缓慢飘落并逐渐消失，细节拉满
 - 选用 Cormorant Garamond 优雅字体，气氛浪漫
 
-#### Figma Make
-
-- 中间一坨诡异的叠加效果
-- 跳动的礼盒 emoji 和彩色图形堆在画面中间
-- 作为全球第一的设计协作工具，表现令人失望
+**高下立判。**
 
 ### 测试二：Skill Showcases 网站首页
 
@@ -64,18 +62,26 @@
 
 #### Claude 直出
 
+![Claude 直出网站](./img/001/website-without-skill-1.jpg)
+
 - 主题色是 AI 最爱的紫色
 - 光标移动时有魔法粉末效果，像大学生博客
 - 整体粗糙生硬
 
 #### 使用 Skill
 
+![使用 Skill 网站](./img/001/website-with-skill-1.jpg)
+
 - 美学十分在线
 - 标题和卡片的淡出效果恰到好处
 - 按钮 hover 散发高级光晕
 - 字体采用 Fraunces 衬线字体
 
+**太惊艳了！远超初级前端工程师的水平，关键只用两句话几分钟内做出来的。**
+
 #### Lovable（Figma Make 竞品）
+
+![Lovable 效果](./img/001/lovable-website-1.jpg)
 
 - 交互水平 80 分以上
 - 标题用 Playfair Display，正文用 Inter（正是 Skill 中明确避免的常见字体）
