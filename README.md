@@ -30,6 +30,12 @@ Skills 聚合的网站很多，但几乎没有哪个告诉你：
 | [电子表格处理](./usecases/xlsx.md) | xlsx | 4.3/5 |
 | [网站登录凭证管理](./usecases/playwright-auth.md) | playwright-auth-manager | 4.4/5 |
 | [设计封面](./usecases/canvas-design.md) | canvas-design | 3.5/5 |
+| 公众号主题定制 | theme-factory | 待评测 |
+| NotebookLM 集成 | [notebooklm-skill](https://mcpservers.org/claude-skills/pleaseprompto/notebooklm-skill) | 待评测 |
+| Notion 官方 skills | [Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0) | 待评测 |
+| AI 语音通话 | [call-me](https://github.com/ZeframLou/call-me) | 待评测 |
+| 全栈开发工作流 | [superpowers](https://github.com/obra/superpowers) | 待评测 |
+| 复利工程 | [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin) | 待评测 |
 
 ## 如何安装 Skill
 
